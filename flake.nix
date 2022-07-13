@@ -1,5 +1,5 @@
 {
-  description = "Interpreter Studio RTC Studio";
+  description = "Membrane Multimedia Framework (MPEG-TS Plugin)";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.05";
@@ -19,9 +19,6 @@
 
 	    pkg-config
 	    openssl
-	    srtp
-	    ffmpeg
-	    # libav
           ];
           shellHook = ''
             mkdir -p .nix-mix
